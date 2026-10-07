@@ -1,3 +1,5 @@
+Just manually set the configurations "edit container" on gamenative.
+
 [GENERAL]
 Container Variant: bionic
 Wine Version: 11.0-1 arm64ec-1
