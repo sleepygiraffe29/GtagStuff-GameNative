@@ -1,0 +1,52 @@
+[GENERAL]
+Container Variant: bionic
+Wine Version: 11.0-1 arm64ec-1
+Executable Path: Gorilla Tag.exe
+Exec Argument: -dx11
+Screen Size: 640x480 (4:3)
+Audio Driver: Pulse Audio
+PulseAudio Low Latency Mode: enabled
+Force DLC: disabled
+Use Legacy DRM: enabled
+Steam Offline Mode: disabled
+Disable Epic Overlay: disabled
+Launch Steam Client (Beta): disabled
+Enable Experimental Bionic Steam: enabled
+Disable Libredirect: enabled
+Steam Type: Ultra Light
+Suspend Behavior: Suspend Until Resume button (Default)
+
+[GRAPHICS]
+Graphics Driver: Wrapper-gamenative
+Graphics Driver Version: Turnip Adreno Driver T30 (@Mr_Purple_666)
+Transcoder: CPU
+Quality: Low
+Display Renderer: Vulken
+DX Wrapper: DXVK
+DXVK Version: 2.4.1-gplasync
+Max Device Memory: 2048MB
+Use AdrenoTools Turnip: disabled
+Present Mode: immediate
+VR Refresh Rate: 72Hz
+VR Render Scale: 75%
+Steam VR (Open VR) Compatibility: enabled
+Renderer Present Mode: fifo
+Memory Resource Type: auto
+BCn Emulation: compute
+Sharpness Boost: none
+Use DRI3: disabled
+
+[EMULATION]
+FEXCore Version: 2605
+32-bit Emulator: FEXCore
+Box64 Version: 0.4.2
+Box64 Present: Performance
+FEXCore Present: Performance
+
+[WINE]
+Video Memory Size: 4098MB
+
+[ENVIRONMENT]
+MESA_VK_WSI_PRESENT_MODE: immediate
+PULSE_LATENCY_MSEC: 0
+WINEDLLOVERRIDES: winhttp=n,b 
