@@ -1,4 +1,4 @@
-Just manually set the configurations "edit container" on gamenative.
+Instead of importing the json, just manually set the configurations "edit container" on gamenative since importing configs is broken.
 
 [GENERAL]
 Container Variant: bionic
