@@ -17,7 +17,6 @@ Disable Epic Overlay: disabled
 Launch Steam Client (Beta): disabled
 Enable Experimental Bionic Steam: enabled
 Disable Libredirect: enabled
-Steam Type: Ultra Light
 Suspend Behavior: Suspend Until Resume button (Default)
 
 [GRAPHICS]
@@ -25,7 +24,7 @@ Graphics Driver: Wrapper-gamenative
 Graphics Driver Version: Turnip Adreno Driver T30 (@Mr_Purple_666)
 Transcoder: CPU
 Quality: Low
-Display Renderer: GL
+Display Renderer: Vulkan
 DX Wrapper: DXVK
 DXVK Version: 2.4.1-gplasync
 Max Device Memory: 2048MB
@@ -44,7 +43,7 @@ Use DRI3: disabled
 FEXCore Version: 2605
 32-bit Emulator: FEXCore
 Box64 Version: 0.4.2
-Box64 Present: Intermediate
+Box64 Present: Performance
 FEXCore Present: Performance
 
 [WINE]
